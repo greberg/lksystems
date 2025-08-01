@@ -1,0 +1,18 @@
+{
+  "title": "LK Systems",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to LK Systems",
+        "description": "Enter host and credentials to connect."
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Select Rooms"
+      }
+    }
+  }
+}

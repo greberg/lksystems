@@ -1,0 +1,7 @@
+{
+  "name": "LK Systems Climate and Sensors",
+  "content_in_root": false,
+  "domains": ["lksystems"],
+  "country": "SE",
+  "homeassistant": "2023.0.0"
+}

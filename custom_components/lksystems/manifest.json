@@ -1,0 +1,10 @@
+{
+  "domain": "lksystems",
+  "name": "LK Systems",
+  "version": "2.0.1",
+  "requirements": [],
+  "codeowners": ["@greberg"],
+  "documentation": "https://github.com/greberg/lksystems",
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
