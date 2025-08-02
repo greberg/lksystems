@@ -1,10 +1,10 @@
 # LK Systems Integration for Home Assistant
 
-This custom integration allows Home Assistant to interact with LK Systems thermostats.
+This custom integration allows Home Assistant to interact with LK Systems thermostats through LK Systems webserver.
 
 ## Features
 
-- Auto-detection of rooms from LK controller
+- Auto-detection of rooms from LK controller (webserver)
 - Temperature sensors for each active room
 - Climate entities for target control
 - Full UI-based configuration with config flow
@@ -20,11 +20,11 @@ This custom integration allows Home Assistant to interact with LK Systems thermo
 
 ## Support
 
-Only tested with thermostats connected to LK Systems' own controller. Requires access to the `/main.json` and `update.cgi` endpoints.
+Only tested with thermostats connected to LK Systems own controller (webserver). Requires access to the `/main.json` and `update.cgi` endpoints.
 
 ## Screenshots
 
-![Thermostats](docs/screenshot_thermostats.png)
+![Thermostats](screenshot_thermostats.png)
 
 ## License
 
