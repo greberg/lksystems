@@ -15,7 +15,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
     api = LkSystemsAPI(config["host"], config["username"], config["password"])
 
     coordinator = LkSystemsCoordinator(hass, api)
-    await coordinator.async_config_entry_first_refresh()
+    #await coordinator.async_config_entry_first_refresh()
+    await coordinator.async_refresh()
 
     rooms = api.get_rooms()
     _LOGGER.info("LK Systems rooms detected: %s", rooms)
