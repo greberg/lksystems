@@ -2,7 +2,7 @@ import logging
 from datetime import timedelta
 from homeassistant.components.sensor import SensorEntity
 from homeassistant.components.sensor import SensorDeviceClass
-from homeassistant.components.sensor import SensorDeviceClass
+from homeassistant.components.sensor import SensorStateClass
 
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
